@@ -1,0 +1,31 @@
+{
+  "clients": [
+    {
+      "id": "CLI-001",
+      "nom": "Boulangeries Durand",
+      "secteur": "Agroalimentaire",
+      "ville": "Lyon",
+      "contacts": [{"nom": "Claire Durand", "role": "Gérante", "email": "claire@exemple.fr"}]
+    },
+    {
+      "id": "CLI-002",
+      "nom": "TransLog Express",
+      "secteur": "Logistique",
+      "ville": "Lille",
+      "contacts": [{"nom": "Marc Petit", "role": "Directeur des opérations", "email": "marc@exemple.fr"}]
+    },
+    {
+      "id": "CLI-003",
+      "nom": "Énergies du Sud",
+      "secteur": "Énergie",
+      "ville": "Toulouse",
+      "contacts": [{"nom": "Sofia Martin", "role": "DSI", "email": "sofia@exemple.fr"}]
+    }
+  ],
+  "opportunites": [
+    {"id": "OPP-001", "client_id": "CLI-001", "titre": "Agent de prise de commandes", "montant": 4500, "statut": "Proposition", "date_cloture": "2026-10-15"},
+    {"id": "OPP-002", "client_id": "CLI-002", "titre": "Tri automatique des bons de livraison", "montant": 12000, "statut": "Négociation", "date_cloture": "2026-12-20"},
+    {"id": "OPP-003", "client_id": "CLI-003", "titre": "Assistant SAV par e-mail", "montant": 8000, "statut": "Qualification", "date_cloture": "2026-10-30"},
+    {"id": "OPP-004", "client_id": "CLI-002", "titre": "Tableau de bord des retards", "montant": 3000, "statut": "Gagnée", "date_cloture": "2026-09-01"}
+  ]
+}
